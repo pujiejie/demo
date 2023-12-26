@@ -1,0 +1,14 @@
+Git配置
+    用户名 邮箱
+    git config --global user.name xxx
+    git config --global user.email 
+    git config --list 查看配置项
+
+
+Git初始化仓库
+    git init
+
+Git提交代码到暂存区
+    git add file1,file2
+    git add .
+
