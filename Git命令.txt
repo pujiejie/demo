@@ -12,3 +12,10 @@ Git提交代码到暂存区
     git add file1,file2
     git add .
 
+Git提交暂存区代码到本地仓库
+    git commit -m 注释
+
+查看Git仓库的历史版本
+    git log
+    git log --pretty=oneline
+
