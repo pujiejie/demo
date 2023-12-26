@@ -4,7 +4,6 @@ Git配置
     git config --global user.email 
     git config --list 查看配置项
 
-
 Git初始化仓库
     git init
 
@@ -19,3 +18,5 @@ Git提交暂存区代码到本地仓库
     git log
     git log --pretty=oneline
 
+版本回退
+    git reset --hard [commit]
