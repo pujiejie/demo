@@ -20,3 +20,7 @@ Git提交暂存区代码到本地仓库
 
 版本回退
     git reset --hard [commit]
+
+将暂存区代码回退到工作区
+    git restore --staged file1
+
