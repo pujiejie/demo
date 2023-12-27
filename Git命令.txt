@@ -4,6 +4,8 @@ Git配置
     git config --global user.email 
     git config --list 查看配置项
 
+    git config --global http.sslverify false
+
 Git初始化仓库
     git init
 
@@ -37,7 +39,23 @@ Git提交暂存区代码到本地仓库
     git clone 远程库地址
 
 协作开发
-
+    冲突解决 打一顿
 
 拉取更新   
-    git pull
+    git pull 库名 分支名
+
+分支
+    git branch
+    git branch dev
+    git branch -r 所有远程分支
+    git branch -d dev 删除分支
+    git branch -D dev 强制删除
+
+临时存储
+    git stash
+    git stash pop
+
+README.md
+
+
+.gitignore 忽略文件
