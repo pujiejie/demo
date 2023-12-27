@@ -23,3 +23,21 @@ Git提交暂存区代码到本地仓库
 
 将暂存区代码回退到工作区
     git restore --staged file1
+
+
+远程库
+    git remote -v 查看所有远程库
+    git remote add 库名 远程地址
+    git remote remove 库名
+
+本地库推送到远程库
+    git push 库名 分支名
+
+下载远程库
+    git clone 远程库地址
+
+协作开发
+
+
+拉取更新   
+    git pull
